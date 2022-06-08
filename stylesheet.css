@@ -1,0 +1,142 @@
+body {
+    background: linear-gradient(307deg, #2a2a2a, #0e0e0e);
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 100vh;
+ /*   margin: -8px;*/
+ 
+}
+
+.imageSelect {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 30%;
+}
+
+p {
+    font-family: 'Bebas';
+    color: rgb(220, 220, 220);
+    font-size: 38px;
+}
+
+img {
+    padding: 5px;
+    height: 150px;
+    width: 60%;
+    transition: transform .2s;
+}
+
+@font-face {
+    font-family: "Bebas";
+    src: url(font/Bebas-Regular.otf);
+}
+
+.container {
+    display: block;
+}
+
+.titles {
+    margin: 10px 0px 0px 0px;
+    
+
+}
+
+button {
+        font-size: 0;
+        height: 250px;
+        width: 250px;
+        border-style: none;
+        border-radius: 20px;
+        padding: 0;
+        margin: 0;
+        background: linear-gradient(307deg, #0f0f0f, #272727);
+    }
+
+.buttonR {
+    box-shadow: inset 0px 0px 20px 0 rgb(255 156 234);
+}
+
+.buttonR:hover {
+    box-shadow: 0px 0px 20px 0 rgb(255 156 234);
+}
+
+.buttonP {
+    box-shadow: inset 0px 0px 20px 0 rgb(88 221 255);
+}
+
+.buttonP:hover {
+    box-shadow: 0px 0px 20px 0 rgb(88 221 255);
+}
+
+.buttonS {
+    box-shadow: inset 0px 0px 20px 0 rgb(255 246 96);
+}
+
+.buttonS:hover {
+    box-shadow: 0px 0px 20px 0 rgb(255 246 96);
+}
+
+.containerScore {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 90px;
+}
+
+.containerResults {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.resultText {
+    font-size: 38px;
+    margin: 0px;
+}
+
+.resultDisplay {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 250px;
+    border-style: none;
+    border-radius: 20px;
+    width: 70%;
+    padding: 0;
+    margin: 0px 0px 0px 0px;
+    background: linear-gradient(307deg, #0f0f0f, #272727);
+    box-shadow: inset 6px 6px 10px 0 rgb(76 145 134), inset -6px -6px 10px 0 rgb(61 122 112);
+    font-size: 28px;
+margin: 0px;
+}
+
+.scores {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 150px;
+    border-style: none;
+    border-radius: 20px;
+    width: 70%;
+    padding: 0;
+    margin: 0px 0px 0px 0px;
+    background: linear-gradient(307deg, #0f0f0f, #272727);
+    box-shadow: inset 6px 6px 10px 0 rgb(76 145 134), inset -6px -6px 10px 0 rgb(61 122 112);
+}
+
+.buttonSelect {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+img:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
