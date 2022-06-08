@@ -1,14 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="font/Bebas-Regular.otf">
     <title>Document</title>
 </head>
+
 <body>
-    <div class="containerScore"></div>
-        <div class="container"></div>
-            <div class="containerResults"></div>
+    <div class="body">
+<div class="containerScore">
+    <div class="scores">
+    <p>Player Score: <span id="playerScore">0</span></p>
+    <p>Computer Score: <span id="computerScore">0</span></p>
+</div>
+</div>
+    <div class="container">
+        <div class="buttonSelect">
+            <div class="imageSelect">
+                <button class="buttonR" type="button" value="rock"><p class="titles">Rock</p><img src="images/rock.png" alt=""></button>
+            </div>
+            <div class="imageSelect">
+                <button class="buttonP" type="button" value="paper"><p class="titles">Paper</p><img src="images/paper.png" alt=""></button>
+            </div>
+            <div class="imageSelect">
+                <button class="buttonS" type="button" value="scissors"><p class="titles">Scissors</p><img src="images/scissors.png" alt=""></button>
+            </div>
+        </div>
+        </div>
+        <div class="containerResults">
+            <div class="resultDisplay">
+    <p class="resultText" id="results"></p>
+    </div>
+    </div>
+</div>
+<script src="Javascript/javascript.js"></script>
 </body>
+
 </html>
